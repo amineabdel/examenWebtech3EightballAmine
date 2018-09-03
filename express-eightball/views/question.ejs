@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>HOme</title>
+</head>
+<body>
+
+  <h2>All question</h2>
+
+
+  <span><%= question %></span>
+
+  <ul class="question">
+      <% for(var i=0; i<question.length; i++) {%>
+        <li class="ques"></li>
+          <span><%= question %></span>
+        </li>
+      <% } %>
+  </ul>
+
+</body>
+</html>

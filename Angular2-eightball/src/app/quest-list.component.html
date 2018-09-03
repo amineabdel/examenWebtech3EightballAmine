@@ -1,0 +1,12 @@
+<div class = 'container'>
+   <h1>All questions</h1>
+   <ul>
+    <li *ngFor='let q of questions; let i = index' (click)='getQuest(i)'>
+
+      item : {{ q }}<br />
+ 
+
+    </li>
+  </ul>
+
+</div>
